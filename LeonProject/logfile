@@ -1,0 +1,191 @@
+2024-11-26 16:38:50.549 UTC [35705] LOG:  starting PostgreSQL 14.5 on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu4) 13.2.0, 64-bit
+2024-11-26 16:38:50.549 UTC [35705] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-11-26 16:38:50.552 UTC [35705] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-11-26 16:38:50.555 UTC [35711] LOG:  database system was shut down at 2024-11-26 16:38:17 UTC
+2024-11-26 16:38:50.558 UTC [35705] LOG:  database system is ready to accept connections
+2024-11-26 17:15:50.167 UTC [36912] FATAL:  role "chenx" does not exist
+2024-11-26 17:16:00.433 UTC [36928] FATAL:  database "imdbload" does not exist
+2024-11-26 17:16:18.958 UTC [37013] FATAL:  database "SHOW port;" does not exist
+2024-11-26 17:19:17.638 UTC [37149] FATAL:  database "harsh" does not exist
+2024-11-26 17:25:35.754 UTC [37574] ERROR:  database "imdbload" already exists
+2024-11-26 17:25:35.754 UTC [37574] STATEMENT:  CREATE DATABASE imdbload;
+2024-11-26 17:25:35.773 UTC [37586] ERROR:  relation "char_name" does not exist
+2024-11-26 17:25:35.773 UTC [37586] STATEMENT:  COPY  char_name FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.774 UTC [37585] ERROR:  relation "name" does not exist
+2024-11-26 17:25:35.774 UTC [37585] STATEMENT:  COPY  name FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.776 UTC [37587] ERROR:  relation "comp_cast_type" does not exist
+2024-11-26 17:25:35.776 UTC [37587] STATEMENT:  COPY  comp_cast_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.778 UTC [37593] ERROR:  relation "company_name" does not exist
+2024-11-26 17:25:35.778 UTC [37593] STATEMENT:  COPY  company_name FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.792 UTC [37595] ERROR:  relation "company_type" does not exist
+2024-11-26 17:25:35.792 UTC [37595] STATEMENT:  COPY  company_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.794 UTC [37597] ERROR:  relation "kind_type" does not exist
+2024-11-26 17:25:35.794 UTC [37597] STATEMENT:  COPY  kind_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.798 UTC [37622] ERROR:  relation "movie_link" does not exist
+2024-11-26 17:25:35.798 UTC [37622] STATEMENT:  COPY  movie_link FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.802 UTC [37613] ERROR:  relation "cast_info" does not exist
+2024-11-26 17:25:35.802 UTC [37613] STATEMENT:  COPY  cast_info FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.802 UTC [37609] ERROR:  relation "keyword" does not exist
+2024-11-26 17:25:35.802 UTC [37609] STATEMENT:  COPY  keyword FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.805 UTC [37610] ERROR:  relation "info_type" does not exist
+2024-11-26 17:25:35.805 UTC [37610] STATEMENT:  COPY  info_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.806 UTC [37620] ERROR:  relation "person_info" does not exist
+2024-11-26 17:25:35.806 UTC [37620] STATEMENT:  COPY  person_info FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.807 UTC [37621] ERROR:  relation "movie_keyword" does not exist
+2024-11-26 17:25:35.807 UTC [37621] STATEMENT:  COPY  movie_keyword FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.807 UTC [37619] ERROR:  relation "aka_title" does not exist
+2024-11-26 17:25:35.807 UTC [37619] STATEMENT:  COPY  aka_title FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.807 UTC [37616] ERROR:  relation "role_type" does not exist
+2024-11-26 17:25:35.807 UTC [37616] STATEMENT:  COPY  role_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.808 UTC [37611] ERROR:  relation "title" does not exist
+2024-11-26 17:25:35.808 UTC [37611] STATEMENT:  COPY  title FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.809 UTC [37608] ERROR:  relation "link_type" does not exist
+2024-11-26 17:25:35.809 UTC [37608] STATEMENT:  COPY  link_type FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.809 UTC [37612] ERROR:  relation "movie_companies" does not exist
+2024-11-26 17:25:35.809 UTC [37612] STATEMENT:  COPY  movie_companies FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.809 UTC [37614] ERROR:  relation "complete_cast" does not exist
+2024-11-26 17:25:35.809 UTC [37614] STATEMENT:  COPY  complete_cast FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.809 UTC [37615] ERROR:  relation "aka_name" does not exist
+2024-11-26 17:25:35.809 UTC [37615] STATEMENT:  COPY  aka_name FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.811 UTC [37618] ERROR:  relation "movie_info" does not exist
+2024-11-26 17:25:35.811 UTC [37618] STATEMENT:  COPY  movie_info FROM STDIN escape '\' csv header
+2024-11-26 17:25:35.811 UTC [37617] ERROR:  relation "movie_info_idx" does not exist
+2024-11-26 17:25:35.811 UTC [37617] STATEMENT:  COPY  movie_info_idx FROM STDIN escape '\' csv header
+2024-11-26 17:30:27.401 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:30:27.401 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:30:39.135 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:30:39.135 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:30:46.871 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:30:46.871 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:30:54.480 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:30:54.480 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:02.907 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:31:02.907 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:11.354 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:31:11.354 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:19.081 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:31:19.081 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:26.476 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:31:26.476 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:35.361 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:31:35.361 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:44.338 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:31:44.338 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:31:51.600 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:31:51.600 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:01.427 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:32:01.427 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:08.867 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:32:08.867 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:16.087 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:32:16.087 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:23.616 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:32:23.616 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:32.680 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:32:32.680 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:39.888 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:32:39.888 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:47.397 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:32:47.397 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:32:55.122 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:32:55.122 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:04.781 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:33:04.781 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:14.766 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:33:14.766 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:26.502 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:33:26.502 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:36.091 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:33:36.091 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:44.389 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:33:44.389 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:33:52.966 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:33:52.966 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:03.182 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:34:03.182 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:12.012 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:34:12.012 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:19.511 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:34:19.511 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:26.889 UTC [35712] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2024-11-26 17:34:26.889 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:34.357 UTC [35712] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2024-11-26 17:34:34.357 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:34:46.005 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:34:46.005 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:35:00.903 UTC [35712] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2024-11-26 17:35:00.903 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:35:16.013 UTC [35712] LOG:  checkpoints are occurring too frequently (16 seconds apart)
+2024-11-26 17:35:16.013 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:35:31.798 UTC [35712] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2024-11-26 17:35:31.798 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:35:45.299 UTC [35712] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2024-11-26 17:35:45.299 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:35:57.930 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:35:57.930 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:36:08.698 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:36:08.698 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:36:19.379 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:36:19.379 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:36:32.352 UTC [35712] LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2024-11-26 17:36:32.352 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:36:43.897 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:36:43.897 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:36:55.350 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:36:55.350 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:06.748 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:37:06.748 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:18.018 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:37:18.018 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:28.707 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:37:28.707 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:38.099 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:37:38.099 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:47.326 UTC [35712] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2024-11-26 17:37:47.326 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:37:57.826 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:37:57.826 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:07.277 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:38:07.277 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:17.475 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:38:17.475 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:27.397 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:38:27.397 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:37.476 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:38:37.476 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:47.095 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:38:47.095 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:38:58.225 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:38:58.225 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:39:08.594 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:39:08.594 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:39:18.275 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:39:18.275 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:39:29.266 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:39:29.266 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:39:39.546 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:39:39.546 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:39:50.111 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:39:50.111 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:40:01.941 UTC [35712] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2024-11-26 17:40:01.941 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:40:13.185 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:40:13.185 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:40:25.715 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:40:25.715 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:40:42.653 UTC [35712] LOG:  checkpoints are occurring too frequently (17 seconds apart)
+2024-11-26 17:40:42.653 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:40:54.806 UTC [35712] LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2024-11-26 17:40:54.806 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:41:07.718 UTC [35712] LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2024-11-26 17:41:07.718 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:41:17.551 UTC [35712] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2024-11-26 17:41:17.551 UTC [35712] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2024-11-26 17:43:04.028 UTC [38696] ERROR:  canceling autovacuum task
+2024-11-26 17:43:04.028 UTC [38696] CONTEXT:  while scanning block 29947 of relation "public.cast_info"
+	automatic vacuum of table "imdbload.public.cast_info"
+2024-11-26 18:22:33.606 UTC [35705] LOG:  received fast shutdown request
+2024-11-26 18:22:33.611 UTC [35705] LOG:  aborting any active transactions
+2024-11-26 18:22:33.617 UTC [35705] LOG:  background worker "logical replication launcher" (PID 35717) exited with exit code 1
+2024-11-26 18:22:33.630 UTC [35712] LOG:  shutting down
+2024-11-26 18:22:33.739 UTC [35705] LOG:  database system is shut down

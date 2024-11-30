@@ -1,0 +1,24 @@
+name: leon
+channels:
+  - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+dependencies:
+  - python=3.9  # Adjusted for better compatibility
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pytorch  # pytorch will automatically fetch ARM-compatible versions from conda-forge
+  - torchvision
+  - pip:
+      - aiohttp==3.9.1
+      - pytorch-lightning==2.1.2
+      - psycopg2-binary==2.9.9
+      - wandb==0.16.1
+      - matplotlib-inline==0.1.6
+      - tqdm==4.66.1
+      - ray==2.8.1
+      - sympy==1.12
+      - joblib==1.3.2
